@@ -1,0 +1,17 @@
+t()
+{
+	if(Paramsite.ALPHA) { intersite_change_alpha(Paramsite.ALPHA); }
+	if((pos_x == (-size[0]))) { site_deplace_intersite_droite(); }
+	else		          { site_deplace_intersite_gauche(); }
+}
+
+
+
+
+function site_deplace_intersite_haut(r)
+{
+	pos_y = pos_y - 10;
+	pos_y_rel = pos_y_rel-10;
+  if(pos_y > (pos_y_abs-size[1])) { setTimeout('site_deplace_intersite_haut(1);', 30); }
+	else		      		  { pos_y = pos_y_abs-size[1];
+	             setTimeout('site_deplace_intersite_bas()', 1000*Paramsite.ti

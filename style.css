@@ -1,0 +1,181 @@
+#topbar {
+	margin:10px 20px 0px 20px;
+	background-color:#eee;
+	height:112px;
+	border-top:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	overflow:hidden;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	}
+	
+html>body #topbar {
+	heigxxxht:190px;
+	}
+	
+#footer {
+	color:#333;
+	background-color:#eee;
+	font-size:80%;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-top:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	/**/
+	}
+
+#sidebarleft {
+	position: absolute;
+	left:10px;
+	top:112px;
+	width:150px;
+	background-color:#fff;
+	overflow:hidden;
+	}
+
+.sidebarleft-block {
+	margin:0px 0px 10px 0px;
+	width:150px;
+	padding:10px;
+	border:1px dashed #999;
+	background-color:#eee;
+	overflow:hidden;
+	/**/
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width:128px;
+	}
+	
+html>body .sidebarleft-block {
+	width:128px;
+	}
+
+
+#ZZZsidebarright {
+	position: absolute;
+	right:10px;
+	top:112px;
+	width:150px;
+	padding:10px;
+	border:1px dashed #999;
+	background-color:#eee;
+	overflow:hidden;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width:128px;
+	}
+	
+html>body #ZZZsidebarright {
+	width:153px;
+	}
+
+#sidebarright {
+	position: absolute;
+	right:10px;
+	top:112px;
+	width:150px;
+	background-color:#fff;
+	overflow:hidden;
+	}
+
+.sidebarright-block {
+	margin:0px 0px 10px 0px;
+	width:150px;
+	padding:10px;
+/*border:1px dashed #999;*/
+	border:1px dashed #999;
+	background-color:#eee;
+	overflow:hidden;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width:128px;
+	}
+html>body .sidebarright-block {
+	width:128px;
+	}
+
+#content {
+	background-color:#fff;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	/**/
+	}
+	
+#contentnorightsidebar {
+	background-color:#fff;
+	margin-top: 10px;
+	margin-left: 150px;
+	margin-right: 10px;
+}
+		
+h1 {
+	margin:10px 0px 10px 0px;
+	padding:0px;
+	font-size:170%;
+	font-weight:900;
+	color:#08246b;
+	/*background-color:#fff;*/
+}
+h2 {
+	margin:10px 0px 10px 0px;
+	padding:0px;
+	font-size:140%;
+	font-weight:900;
+	color:#08246b;
+	/*background-color:#fff;*/
+}
+h3 {
+	margin:10px 0px 10px 0px;
+	padding:0px;
+	font-size:120%;
+	font-weight:900;
+	color:#08246b;
+	/*background-color:#fff;*/
+}
+	
+a {
+	text-decoration:underline;
+	font-weight:600;
+	color:#09c;
+}
+
+a:link {color:#09c;}
+a:visited {color:#09c;}
+a:hover {color:#c00;}
+
+a.lms {
+	color:#bbbbbb;
+}
+
+a.lcl {
+	font-weight:100;
+}
+
+body, p, td {
+	font:12px/17px Trebuchet MS,Lucida grande,Arial;
+	}
+
+p {
+	margin:10px 0px 10px 0px;
+	}
+	
+body {
+	margin:0px 7% 10px 7%;
+	padding:0px 0px 0px 0px;
+	}
+
+.error {
+	color:#ff0000;
+}	
+
+.niceandlittle { 
+	font-size: 80%;
+	font-weight:normal;
+	color:#666666
+}

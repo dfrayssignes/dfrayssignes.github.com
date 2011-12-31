@@ -1,0 +1,412 @@
+<html>
+<head>
+
+	<meta name="description" content="java game chess program" />
+	<meta name="keywords" content="chess, java, mac, os X, game, freeware, apple" />
+	<meta http-equiv="content-language" content="en" />
+
+	<title>
+	j2chess.com
+	</title>	
+	<link rel="StyleSheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="topbar">
+<table border="0" cellspacing="5" cellpadding="5" width="100%">
+<tr>
+<td valign=CENTER align=CENTER>
+	<img width="100" height="1" src="images/invisible.gif">
+	<img height="80" src="images/NK-green.gif" border="0">
+</td>
+<td width="100%" valign=CENTER align=LEFT>
+	<h2>j2chess</h2>
+	<b>Multi-platform chess program</b><p>
+	version 3.2
+</td>
+<td valign=CENTER align=RIGHT>
+<script type="text/javascript"><!--
+google_ad_client = "pub-3573118956996577";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "image";
+google_ad_channel = "";
+google_color_border = "DDDDDD";
+google_color_bg = "EEEEEE";
+google_color_link = "0066FF";
+google_color_text = "0066FF";
+google_color_url = "0066FF";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="tahoma"></div>
+
+<center>
+<a class="lm" href="about.html">about j2chess</a> |
+<a class="lm" href="download.html">download</a> |
+<a class="lm" href="screenshots.html">screenshots</a> |
+<a class="lm" href="history.html">history</a> |
+<a class="lm" href="blog.html">blog</a> |
+<a class="lm" href="links.html">links</a>
+</center>
+<p>
+
+<div id="content">
+Quick review of the j2chess evolution!
+
+<h3>version 3.2</h3>
+15 December 2010 - Current version of j2chess!<p>
+List of new stuff:
+<ul>
+<li>new features:</li>
+<ul>
+    <li>cometic changes (new icons)</li>
+</ul>
+<li>bug fix:</li>
+<ul>
+	<li>Game info preference: default names for new games bug fix</li>
+</ul>
+<li>geek stuff:</li>
+<ul>
+    <li>j2chess has been maven-ised :)</li>
+</ul>
+</ul>
+
+<h3>version 3.1</h3>
+20 October 2009<p>
+List of new stuff:
+<ul>
+<li>new features:</li>
+<ul>
+    <li>new Substance look & feel (set as default)</li>
+    <li>Classic and Great players PGN libraries available: fantastic games ready to be replayed!</li>
+    <li>PGN loader improvment: support "ep" syntax + Site display</li>
+    <li>performance tester in Engine pref</li>
+    <li>minor cometic changes (icons, Preferences panel, ...)</li>
+</ul>
+<li>bug fix:</li>
+<ul>
+    <li>fullscreen mode fixed with Snow Leopard</li>
+	<li>PGN loader bug fix</li>
+</ul>
+<li>geek stuff:</li>
+<ul>
+    <li><a href="https://substance.dev.java.net/">Substance Java look & feel</a> used for j2chess new and default look & feel</li>
+</ul>
+</ul>
+
+<h3>version 3</h3>
+08 December 2008<p>
+List of new stuff:
+<ul>
+<li>new features:</li>
+<ul>
+    <li>fullscreen mode</li>
+    <li>game log renderer improved: style (little icons or plain text) & size option</li>
+    <li>PGN libraries improved: several columns can be dynamicaly sorted & filtering available</li>
+    <li>minor cometic changes (Licensing agreement, Preferences panel, ...)</li>
+</ul>
+<li>bug fix:</li>
+<ul>
+	<li>flip board fixed</li>
+</ul>
+<li>geek stuff:</li>
+<ul>
+	<li>java 5 required!</li>
+        <li>glazedlists library used for .pgn Libraries</li>
+</ul>
+</ul>
+
+<h3>version 2.9</h3>
+27 August 2007<p>
+List of new stuff:
+<ul>
+<li>new features:</li>
+<ul>
+    <li>Portugu&#234;s do Brasil language support</li>
+    <li>New Language option: it is now possible to choose j2chess language regardless of the OS locale (j2chess restart required)</li>
+    <li>Game log renderer: little icons are now dislayed (<img height="16" src="images/harlequin-pw.gif" border="0">, <img height="16" src="images/harlequin-nw.gif" border="0">, <img height="16" src="images/harlequin-kw.gif" border="0">...) instead of letters (N, K, ...)</li>
+    <li>PGN libraries: columns can be dynamicaly sorted</li>
+</ul>
+<li>geek stuff:</li>
+<ul>
+	<li>Layout: GroupLayout has been replaced by <a href="http://www.jgoodies.com/freeware/forms/index.html">JGoodies Forms</a> layout manager</li>
+</ul>
+</ul>
+
+<h3>version 2.8</h3>
+22 March 2007<p>
+List of new stuff:
+<ul>
+<li>new features:</li>
+<ul>
+    <li>Export current board position to PNG or JPEG bitmap image</li>
+    <li>Board preference: new Display Possible Moves option</li>
+    <li>To open a PGN file library, it is now possible to drag & drop the file onto the board</li>
+    <li>Direct load of the game if a one game only PGN library is opened</li>
+    <li>Board' squares have now a slight border</li>
+</ul>
+<li>bug fix:</li>
+<ul>
+	<li>erratic red mark in square board fixed</li>
+</ul>
+</ul>
+
+
+<h3>version 2.7</h3>
+27 November 2006<p>
+List of new stuff:
+<ul>
+<li>new features:</li>
+<ul>
+    <li>SMP (symmetric multiprocessing ) support: j2chess engine is stronger on multi-cores/CPU systems</li>
+    <li>Preferences dialogbox: new Engine tab to access related options (nb of threads, ...)</li>
+</ul>
+<li>geek stuff:</li>
+<ul>
+    <li>j2chess engine is also smarter due to a better move selection</li>
+    <li>game time management: j2chess uses 1/40<sup>th</sup> of its remaining time for a move (previously 1/33<sup>th</sup>)</li>
+</ul>
+
+</ul>
+
+
+<h3>version 2.6</h3>
+26 June 2006<p>
+List of new stuff:
+<ul>
+<li>look and feel: j2chess adopts Matisse (Netbeans GUI builder)</li>
+<ul>
+	<li>improved Preferences dialogbox</li>
+	<li>improved New Game dialogbox </li>
+	<li>improved License Agreement dialogbox</li>
+	<li>homogeneous Ok & Cancel buttons</li>
+	<li>cosmetic help menu changes</li>
+	<li>mate/slatemate/draw dialogboxes redesigned with animated icons</li>
+</ul>
+<li>new features:</li>
+<ul>
+    <li>Sound preference: new Mute All option</li>
+    <li>Board preference: new Color Gradient option</li>
+	<li>Board preference: new Show when king is check option</li>
+    <li>Board preference: improved Show Coordinates option</li>
+    <li>Board preference: improved Show Last Move option</li>
+</ul>
+<li>geek stuff:</li>
+<ul>
+    <li>new performance test (multi-threaded)</li>
+    <li>Splash window: check for optimum nb of thread the first run of the 2.6 version</li>
+</ul>
+<li>bug fix:</li>
+<ul>
+	<li>on Pawn's excelsior: sub-promotion bug new fixed</li>
+</ul>
+</ul>
+
+
+<h3>version 2.5</h3>
+19 January 2006<p>
+List of new stuff:
+<ul>
+<li>feature improvement:
+<ul>
+	<li>logical complement to the "Restore previous board" option, a dialogbox now tells if a game is in progress on j2chess startup
+</ul>
+<li>look:
+<ul>
+<li>a redesigned Preferences dialogbox (Mac OS X Aqua style)
+</ul>
+<li>bug fix:
+<ul>
+	<li>PGN export: game notation was wrong in case of ambiguous moves
+</ul>
+</ul>
+
+<h3>version 2.4</h3>
+17 December 2005<p>
+List of new features:
+<ul>
+<li>a new "Game Info" dialogbox to easily update the PGN's Seven Tag Roster of the current game
+<li>a new dedicated area to display brief messages
+<li>engine improvements:
+<ul>
+	<li>Zobritz keys (used for Board.equals)
+	<li>Hashtable coded but not enabled, too slow!
+</ul>
+<li>bug fixes:
+<ul>
+	<li>on j2chess startup: the "display new board" option is now more reliable
+	<li>PGN export: game notation was wrong in case of move repetition with check
+	<li>legal moves: if the same position occurs 3 times, the draw notified but now additional moves are authorised
+</ul>
+<li>and as always some spelling mistake fixes
+</ul>
+
+<h3>version 2.3</h3>
+13 September 2005<p>
+List of new features:
+<ul>
+<li>snappier splash window (up to two times quicker to initialise and load resources)
+<li>on j2chess startup, the 2 following options are available:
+<ul>
+	<li>display new board
+	<li>restore previous board
+</ul>
+<li>computer thoughts can now be stopped anytime by clicking the Play/Stop button
+<li>current game can be saved as PGN file
+<li>new piece style: Mac!
+<li>session username is now used instead of "Human" for player name
+<li>technical stuff:
+<ul>
+	<li>j2chess property files are now stored in a proper j2chess directory
+	<li>j2chess is now screen resolution aware (to avoid the board to be bigger than the current display!)
+</ul>
+<li>and as always more spelling mistake fixes
+</ul>
+
+<h3>version 2.2</h3>
+11 July 2005<p>
+List of features:
+<ul>
+<li>new auto promote option
+<li>square coordinates can now be displayed or not
+<li>new sounds and sound options
+<li>improvements concerning the "New game" dialogbox:
+<ul>
+<li>the board matches the defined Side and Time control options
+<li>current game's state is frozen and then restored if the cancel option is chosen
+</ul>
+<li>cosmetic improvements for:
+<ul>
+<li>mate/slatemate/draw dialogboxes
+<li>keyboard shortcuts' window
+<li>blitz mode: active clock's background is highlighted now
+</ul>
+<li>new Help menu's options for the Windows & Mac platforms:
+<ul>
+<li>j2chess website
+<li>email feedback
+</ul>
+<li>j2chess' strength slightly better thanks to an improvement in the moves sorting 
+<li>spelling mistake fixes
+<li>bug fix: autoreply option while game in progress
+</ul>
+
+<h3>version 2.1</h3>
+23 May 2005<p>
+List of features:
+<ul>
+<li>new game dialogbox to define settings
+<li>blitz and blitz Fischer mode are now available for new games
+<li>keyboard shortcuts help is now available
+<li>various user interface improvement (board, preferences and library frame)
+<li>menubar items reshuffled
+<li>menubar is now Mac OS X "friendly"
+<li>game moves are preserved when j2chess is closed and then reopened
+<li>isMaterialTooLow() function improved (to detect draw games in case of low material)
+</ul>
+
+<h3>version 2</h3>
+18 Dec 2004<p>
+List of features:
+<ul>
+<li>the main board's window can be resized (from tiny to huge!)
+<li>pieces are available in 4 different styles (Alpha, Harlequin, Leipzig & Marroquin)
+<li>when computer plays, piece's move can be animated
+<li>the progressbar is back during computer thought
+<li>annoucement of the Mat is displayed
+</ul>
+
+<h3>version 1.4</h3>
+16 Aug 2004<p>
+List of features:
+<ul>
+<li>evaluation of position improved (slatemate is now detected)
+<li>board colors improved
+</ul>
+
+<h3>version 1.3</h3>
+15 Jul 2004<p>
+List of features:
+<ul>
+<li>negaScout improved (now the search function is "time accurate"!)
+<li>preferences dialogbox reorganisation
+<li>mini board
+<li>new buttons' look
+<li>the "show last move" feature is now an option and can be disabled
+<li>the game log is in its own window
+</ul>
+
+<h3>version 1.2</h3>
+03 Apr 2004<p>
+List of features:
+<ul>
+<li>splash window in its own thread and with a progressbar
+<li>images loaded with MediaTracker during initialisation
+<li>internationalisation (EN and FR, default is EN)
+<li>drag&drop improved
+<li>use of an animated gif during computer thought!
+<li>new feedback mailbox: feedback@j2chess.com
+</ul>
+<h3>version 1.1</h3>
+08 Nov 2003<p>
+List of features:
+<ul>
+<li>splash window improved
+<li>evaluation function improved
+<li>draw is detected if material is insufficient
+<li>code source reorganised in package
+</ul>
+<h3>version 1.0.2</h3>
+26 Oct 2003<p>
+List of features:
+<ul>
+<li>just a bit of code clean-up
+</ul>
+<h3>version 1.0.1</h3>
+10 Oct 2003<p>
+List of features:
+<ul>
+<li>drag&drop of pieces!
+<li>Let the music play: sounds are now available!
+<li>code clean-up
+</ul>
+<h3>version 1</h3>
+23 Sept 2003<p>
+First public version of j2chess!
+Main features are:
+<ul>
+<li>data structure based on Mailbox representation
+<li>search algorithm based on NegaScout
+<li>opening books
+<li>GUI
+<li>pgn reader
+</ul>
+<p><p>
+</div>
+
+<div id="footer">
+<CENTER>
+Copyright &copy; 2003-2012 j2chess
+</CENTER>
+</div>
+<br>
+	</body>
+</html>
